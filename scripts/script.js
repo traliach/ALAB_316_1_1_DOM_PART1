@@ -9,3 +9,5 @@ mainEl.classList.add("flex-ctr");
 
 // Part 2 — Top menu bar
 const topMenuEl = document.querySelector("#top-menu");
+topMenuEl.style.height = "100%";
+topMenuEl.style.backgroundColor = "var(--top-menu-bg)";
